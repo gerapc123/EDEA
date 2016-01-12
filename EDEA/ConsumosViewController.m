@@ -81,7 +81,7 @@
     [picker setSelectedRows:[NSArray arrayWithObject:[NSNumber numberWithInt:globals.selectedAccount]]];
     picker.delegate = self;
     picker.dataSource = self;
-    [picker setHeaderBackgroundColor:[self.view backgroundColor]];
+    [picker setHeaderBackgroundColor:[UIColor colorWithRed:102/255.0f green:204/255.0f blue:1.0f alpha:1.0f]];
 }
 
 
@@ -101,8 +101,10 @@
     
     FMResultSet *results = [db executeQuery:@"SELECT * FROM user"];
     while([results next]) {
-        NSDictionary* dict = @{@"id":@([results intForColumn:@"id"]), @"nombre":[results stringForColumn:@"nombre"], @"cuenta":@([results intForColumn:@"cuenta"]), @"sucursal":@([results intForColumn:@"sucursal"]), @"domicilio":[results stringForColumn:@"domicilio"]};
-        [users addObject:dict];
+        NSDictionary* dict = @{@"id":@([results intForColumn:@"id"]), @"nombre":[results stringForColumn:@"nombre"], @"cuenta":@([results intForColumn:@"cuenta"]), @"sucursal":@([results intForColumn:@"sucursal"]), @"domicilio":[results stringForColumn:@"domicilio"], @"validada":[results stringForColumn:@"validada"]};
+        if ([(NSString*)[dict objectForKey:@"validada"] boolValue]) {
+            [users addObject:dict];
+        }
     }
     
     GlobalVars *globals = [GlobalVars sharedInstance];

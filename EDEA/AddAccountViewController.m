@@ -67,26 +67,51 @@
     
     if (estado && ![estado isEqualToString:@""]) {
         if ([estado isEqualToString: @"OK"] || [estado isEqualToString:@"00"]) {
+            
+            //Chequeo si no es status 00 y error
+            NSString * message = [[[result objectForKey:@"TRegistroList"] objectForKey:@"TRegistro"] objectForKey:@"mensaje"];
+            if ([message isEqualToString:@""]) {
+                UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Registración rechazada, debes ingresar con una cuenta validada" delegate:nil cancelButtonTitle:@"Aceptar" otherButtonTitles: nil];
+                [alert show];
+                return;
+            }
+            
             NSString *domicilio  = [[[result objectForKey:@"TRegistroList"] objectForKey:@"TRegistro"] objectForKey:@"domicilio"];
+            if (!domicilio) {
+                UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Registración rechazada, debes ingresar con una cuenta validada" delegate:nil cancelButtonTitle:@"Aceptar" otherButtonTitles: nil];
+                [alert show];
+                return;
+            }
             FMDatabase *db = [self openDatabase];
             [db open];
+        
             
             NSInteger validada = [estado isEqualToString:@"OK"];
             
-            BOOL Success = [db executeUpdate:@"INSERT INTO user (nombre, email, cuenta, sucursal, domicilio, validada) VALUES (?, ?, ?, ?, ?, ?)" withArgumentsInArray:@[self.name.text, self.mail.text, self.account.text, self.accountPrefix.text, domicilio, [NSString stringWithFormat:@"%d", validada]]];
-            if (Success) {
-                [self.navigationController popViewControllerAnimated:YES];
-            }else{
-                [self.navigationController popViewControllerAnimated:YES];
+            BOOL Success = [db executeUpdate:@"INSERT INTO user (nombre, email, cuenta, sucursal, domicilio, validada) VALUES (?, ?, ?, ?, ?, ?)" withArgumentsInArray:@[[self normalizeString:self.name.text], [self normalizeString:self.mail.text], [self normalizeString:self.account.text], [self normalizeString:self.accountPrefix.text], domicilio, [NSString stringWithFormat:@"%d", validada]]];
+            if (Success && !validada) {
+                UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Registración pendiente de aprobación" delegate:nil cancelButtonTitle:@"Aceptar" otherButtonTitles: nil];
+                [alert show];
             }
+            
+            [self.navigationController popViewControllerAnimated:YES];
         } else if ([estado isEqualToString: @"01"]) {
             UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Sucursal y/o cuenta inexistente" delegate:nil cancelButtonTitle:@"Aceptar" otherButtonTitles: nil];
             [alert show];
         } else if ([estado isEqualToString: @"02"]) {
             UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Registración rechazada" delegate:nil cancelButtonTitle:@"Aceptar" otherButtonTitles: nil];
             [alert show];
+        } else {
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Registración rechazada, debes ingresar con una cuenta validada" delegate:nil cancelButtonTitle:@"Aceptar" otherButtonTitles: nil];
+            [alert show];
         }
     }
+}
+
+-(NSString*)normalizeString:(NSString*)string{
+    return [[NSString alloc] initWithData:
+                         [string dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES]
+                         encoding:NSASCIIStringEncoding];
 }
 
 - (IBAction)dismiss:(id)sender {
