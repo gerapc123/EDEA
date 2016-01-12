@@ -1,0 +1,37 @@
+PODS:
+  - CZPicker (0.3.7)
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - ISO8601DateFormatter (0.7)
+  - LGDrawer (1.0.2)
+  - LGRadioButtonsView (1.0.1)
+  - SoapKit (0.0.1):
+    - SoapKit/Core (= 0.0.1)
+  - SoapKit/Core (0.0.1):
+    - ISO8601DateFormatter (~> 0.7)
+  - SVProgressHUD (1.1.3)
+  - TWRCharts (0.1)
+
+DEPENDENCIES:
+  - CZPicker
+  - FMDB
+  - LGDrawer (~> 1.0.0)
+  - LGRadioButtonsView (~> 1.0.0)
+  - SoapKit (~> 0.0.1)
+  - SVProgressHUD
+  - TWRCharts
+
+SPEC CHECKSUMS:
+  CZPicker: c5dc1f70c4fe48e1a5a06c0f45a468295c47e3a3
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  ISO8601DateFormatter: ab926648eebe497f4d167c0fd083992f959f1274
+  LGDrawer: f5069feb8a46c1d8aaef3f5099bddb50939f658e
+  LGRadioButtonsView: d49fc4a09d3c6ec0128afd46c029ed210e3e7a52
+  SoapKit: d29454e8291beee30f60c6f740d9a8e25172f072
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+  TWRCharts: 7ab593e6dcd76e0267d9834a51025379165cd860
+
+COCOAPODS: 0.39.0

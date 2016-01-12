@@ -1,0 +1,1678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06DEF87B3F74B3BDD497AA1B58A591E8 /* ISO8601DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = D1940ED3AAB819DBEF773E4306727FBB /* ISO8601DateFormatter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0A46D4F2B25EB0C1542DA65F95998B1D /* TWRBarChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A9AF568FAB89C386069E3E716DF4409 /* TWRBarChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EF8E9AA652DBE2745A7D5C8CD2E3BDE /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5F548AEA77C12451295636FA454663 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0F8A8E0D6FAEBF758E0B4D620335F094 /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 47BF37C2788294B156E4249B587AD133 /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FB85C6B6900DC9432CE1BF0D18A3B31 /* TWRChartBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A92824395803556C0DE588909A8A5FB /* TWRChartBuilder.m */; };
+		1825FEBDB3322F3480AAC2D17C362C94 /* TWRChart.h in Headers */ = {isa = PBXBuildFile; fileRef = D10CA27BC3F1BA83DE3C7A03A254F2A0 /* TWRChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E487130C8682552DAB9387108245189 /* TWRCircularChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D631E6B15DD0FBFFB5CF6572E0D32F5 /* TWRCircularChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22516D4FE6327F70B83196DD18B237CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91413329813FA6FE5A78842159E69621 /* Foundation.framework */; };
+		282081E035E7A843068E8BCC2E07C217 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = C68856FCA516AED5716729759E33E405 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2A8CCA82F9EB63332068A9E80E21EC0B /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 61E41550FB4B92219AAAEE83006168F1 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F686A2D9237E40E959C7280F3884379 /* TWRCharts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AA38A91F1C9A1B34860A60FDDA4F17 /* TWRCharts-dummy.m */; };
+		313531CEDA0294311D87B4F4C3F073F4 /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EAABAD539A6B7E243260FC171CAF1D6 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		318548A8C4BB9096501EF4B96001F4F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91413329813FA6FE5A78842159E69621 /* Foundation.framework */; };
+		32EE09513373607E89176F7BC7D324ED /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC2F68248A7A9A21AB4A505E7F19319 /* UIColor+HexString.m */; };
+		36C2867385077C70DEBEF856EBA60CA8 /* SoapKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F934B1F0B779ABEC2C06612754A7999D /* SoapKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39C19B943C21331A771BC7AD66F79E58 /* TWRDataSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FB2913BF359AF973BE6915C6427117 /* TWRDataSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A6366C9618C0A48F088DE6E4DD6E8EE /* CZPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9712CC5165B8A45AD049ADFB6CC185D6 /* CZPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D0F69C4CA35EB6A1F686BA88B19B4F6 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD1450852B11BCC42D46FB02917DBDC /* FMDB-dummy.m */; };
+		400B91B11748626BD57EA0345337CB11 /* GDataXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = AF7E9C32EB875BF1EA7A51C92EB5AD40 /* GDataXMLNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49766E62CAD4CEF94D5035938D5F2A3E /* TWRDataSet+Strings.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E465FFB16E82514C586EA42CD980E6 /* TWRDataSet+Strings.m */; };
+		4DAC6DE9DB2A4F7EE27A025736FE5F0B /* LGRadioButtonsView.h in Headers */ = {isa = PBXBuildFile; fileRef = F2DA99ADBCBE8625F88F97E3A86E58FF /* LGRadioButtonsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		502CDE65DD24F76B60D9220B9098D709 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = D26467B61480F4195F0CDE57E423F9FD /* SVIndefiniteAnimatedView.m */; };
+		5272EE7AC76ABA231F58E21CA6094453 /* TWRChartBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EDB2EBB1835A9D26DF14FEF61842AD2 /* TWRChartBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55A1C07B9C48F8DF6578FE6425959070 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91413329813FA6FE5A78842159E69621 /* Foundation.framework */; };
+		587B76A3E381AF7C3EFFDF6754D39288 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91413329813FA6FE5A78842159E69621 /* Foundation.framework */; };
+		5B5C1D145CC58E2384CB0A4BF967696E /* LGDrawer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E39D03823EB9C02EB1FE8C55710D4A53 /* LGDrawer-dummy.m */; };
+		62861968DA0CCA5F4884BCA2FB17FBF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91413329813FA6FE5A78842159E69621 /* Foundation.framework */; };
+		663B4723F4AAB8347426EE46E8A0F621 /* TWRLineChart.h in Headers */ = {isa = PBXBuildFile; fileRef = D4512A7D3673ADEFA64EB80645285FF9 /* TWRLineChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71B4650902F3ECB411F6DA8CFA156DCD /* SKData.m in Sources */ = {isa = PBXBuildFile; fileRef = B749A172461CB306A17479D1B5F7C760 /* SKData.m */; };
+		721585E9232C19DE06EC115F3CF1F204 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF4F3E78E54C28AE9320C99EDE47F3D /* GDataXMLNode.m */; };
+		738BE64BDAD7D394B78FD3446C5485E4 /* UIColor+HexString.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F37B5ADEBE6C55AC0285FA951EBEC8B /* UIColor+HexString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EBCE884230B2FC13741647856FDA12C /* TWRLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = B69C553095EFF05667E79052BC688B0B /* TWRLineChart.m */; };
+		89E1C7C04EDDE660A45C122961D3DE01 /* SKService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCFDDAD64C4291B0DFA4D65ED7B276A /* SKService.m */; };
+		8AADCEE8ED7E675FD285BFB870349F6B /* TWRDataSet+Strings.h in Headers */ = {isa = PBXBuildFile; fileRef = 330A0589CB8F1DDAD3AAAE3943182448 /* TWRDataSet+Strings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B33D39EEB60400F7CDA1FE49DA75DA2 /* LGRadioButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 761F1AC4BCAA9E4A00CC3B589C37DE12 /* LGRadioButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C6B66EAA596EF9F0A9417284637073D /* Chart.js in Sources */ = {isa = PBXBuildFile; fileRef = C572334C60097C49271ADB11D96C9A7D /* Chart.js */; };
+		8E3EFA64B7C9E90118E8E93C843D3941 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DE615671731BF3AEFB3CB1F984FA8F /* UIKit.framework */; };
+		9C54B82A283C4745F5E00859DC44FE7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91413329813FA6FE5A78842159E69621 /* Foundation.framework */; };
+		A0268F291A3B234A9DE675E59BD3B88B /* TWRDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2587590D3101E6C1E8A400CF12182A2A /* TWRDataSet.m */; };
+		A350C5704A1F233DAD830E081E00F8C1 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F22E11FCDB15AA22F52CC41EC6ECC10A /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AC1188B90AC71784E70DA205033D503A /* Pods-EDEA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76320C258360FC0E1CA66CBC9A6F635F /* Pods-EDEA-dummy.m */; };
+		ACA0D763B6B90CB3B0B98BD576093464 /* SKData+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 913E6CF398E64F5B21A3A1EC710EE3BD /* SKData+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B016140F25740CA45C5C3A306947865C /* LGRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A60477DF9D30717B399CBEB038D9CD00 /* LGRadioButton.m */; };
+		B40069DA1C6FF175790B47B4AE0C1C80 /* LGRadioButtonsView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0C0D153E2A72902CEF56BBBD9F1EC5 /* LGRadioButtonsView.m */; };
+		B418C9BDCF8C6BAC2E3942F157BB6D4C /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 01F8939E7126ADB2C01491F3BA020935 /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B86DB75B82D739B76ECF49E86EF75158 /* TWRChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = C21D2357E1C667B1B11FCB6AD9FF7BCD /* TWRChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8D1BB7BF05D65F7F43EB598387A9F8E /* CZPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 211F610489C6A114D4C42D3E2C8DBD73 /* CZPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8DAF20558737E41904338F4062FD318 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91413329813FA6FE5A78842159E69621 /* Foundation.framework */; };
+		BA5B28789CF0F03D3AA145C6EC25578A /* SKData.h in Headers */ = {isa = PBXBuildFile; fileRef = 164408B91EA17C723DD3FF603A863EC5 /* SKData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE62997CE014B63F1871EE21FE2466A8 /* TWRCircularChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DB63503DD6D8DC97B12232C8FB9DDC /* TWRCircularChart.m */; };
+		C452E8DDECEC3B3ED7DFE86037F2127E /* LGDrawer.h in Headers */ = {isa = PBXBuildFile; fileRef = 181355BE5658B5AF62A8F729A85AEF91 /* LGDrawer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA027706DD6805766F1F4EC548E72440 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0DD2F4250373A9AFB0593AC172BFAF /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CAB05EA7138DB86E936DFC9C5CA03F6B /* CZPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE17EC2D772A8A597C7D53012606780 /* CZPickerView.m */; };
+		CE445C1980EB14A7B1B288D238C412D2 /* index.html in Sources */ = {isa = PBXBuildFile; fileRef = D179FFBA1705C764AD0337AAEA043FC6 /* index.html */; };
+		CF1A9C56C61CB312DEA5D32957817F8B /* CZPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D480281902967490D994C2F0EAC96 /* CZPicker-dummy.m */; };
+		D0C5FF5485EAA2CDA03E9796B407697A /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = DC4DE68B5FC03850F0D5A115A5C7ADB0 /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0D5FFE53407F16C9CD3D0ECF43ACE93 /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = D3CB971002B4D2C9B88B6632AD49FBEF /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0FA6C22610083B4697160FB1CC99977 /* LGDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B89F0D7D7F328DC1DA31A39F4EF5F7 /* LGDrawer.m */; };
+		D3BA9A219608F740EB29E0F81386B2E8 /* SKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7703B17AD9107F559D6C7681E630F4D0 /* SKRequest.m */; };
+		D53B7434F47156F9A7DEA85B87CBC921 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E642B1A057ADA2ABEF90BE2417F349C1 /* QuartzCore.framework */; };
+		D72CAE4ECF915DD4288FE4E8A2CCF490 /* SKRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 035F6B4E35CAE2D6D50840ABC991E033 /* SKRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D965224EF62B003C441D563267D38989 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = B6F7240AC4693F25744DA5AC43957C02 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD8FCEED5111EB7A508137823DF0C184 /* LGRadioButtonsView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6818B96E0D1BD5D92BB1B31C6D8D4A /* LGRadioButtonsView-dummy.m */; };
+		DEFA3504695E9DFDE1177DAB22884470 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 575E001731C50C10A9E6D2575AE41C58 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E0F6FD1E10963EA7F454D00BD33AF147 /* ISO8601DateFormatter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9562190861599CE2D2E1A21C4B43A5 /* ISO8601DateFormatter-dummy.m */; };
+		E34611DE92E05F4C36F7D780FEB97FC9 /* TWRBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A9888373580442E1CA4A194DA7346F /* TWRBarChart.m */; };
+		E3EC4D053CF709201E21926D4BD6F240 /* TWRChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5731996DD11306FFB7D33698734E8A /* TWRChartView.m */; };
+		EA6DB0F695DF4BAD7E26BEFF289FF2CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91413329813FA6FE5A78842159E69621 /* Foundation.framework */; };
+		EEC7D7F9F45667B8854AF12F610EE2BE /* ISO8601DateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 68EBA07090CB8AA1B79FED4884BB0025 /* ISO8601DateFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4CD4078E611B39C6AEE81E3952A402B /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 629B18D5419976010C17BE0A768C35AE /* SVProgressHUD-dummy.m */; };
+		F7FFC058EC1AA804721BB0D5320DE85E /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F36B4836F91C8BB55B35D97D13EF61CE /* SVProgressHUD.m */; };
+		F977B243321331B58666E9284634101A /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = BB60B2F48A888B45ACE867F0BC9BE991 /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB5C33E6A3B084B0D0F5345F506662DD /* SKService.h in Headers */ = {isa = PBXBuildFile; fileRef = 51C8E09F9B8FAEB6F30F511F660946E8 /* SKService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCCE5A3DA89B8F8A75357145011613AB /* SoapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D31B579D341380F6A331D58A14942E1D /* SoapKit-dummy.m */; };
+		FD59025A3A2E50BE3F1A28B455CDF086 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91413329813FA6FE5A78842159E69621 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03F1A900A279D681D3889256EE021AF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B85DEDB1E639DF2A558CDC3A15CEB637;
+			remoteInfo = LGRadioButtonsView;
+		};
+		21AA979E903230BA6D64F18C3AE3A2D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A39A1DDE806EEA6270BC9ED2CD0AEE8;
+			remoteInfo = LGDrawer;
+		};
+		21DBF9791EC9B212B2EC54DB1C397DE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9556CC35DE4973EE762BB4F3A46E5510;
+			remoteInfo = TWRCharts;
+		};
+		5CAC6217ADC09A28F93E00BB470098C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66BAFE48E61D0FD962914D7A750DE26A;
+			remoteInfo = CZPicker;
+		};
+		75E286061D58C51C1E4CA10DDADF1BC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F12FB4A63E20F601CFB2E64A65B57C1;
+			remoteInfo = FMDB;
+		};
+		7B5644FED90468C749F7242E612D6071 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1246D72EBE9DC6C28D83D23CB8AB1488;
+			remoteInfo = "CZPicker-CZPicker";
+		};
+		7ED511EF7362F1B9D82BCF510A3565F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0267AE73E97C7576F08F4911FEFECD5;
+			remoteInfo = ISO8601DateFormatter;
+		};
+		AF5C0BA9E4E14E65AD17057345CB9CC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C27E525859B3E87E10BE1BE6A2DD443;
+			remoteInfo = SoapKit;
+		};
+		B8DCEC5520AE8D9D2ADABE8A7214ED86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 275E73B6E5B3B9AE90658D79E7012005;
+			remoteInfo = SVProgressHUD;
+		};
+		E02325A69F928E05D0207E43080F407F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0267AE73E97C7576F08F4911FEFECD5;
+			remoteInfo = ISO8601DateFormatter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0186D87D0893B468895F14EF82573AB5 /* TWRCharts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TWRCharts.xcconfig; sourceTree = "<group>"; };
+		01F8939E7126ADB2C01491F3BA020935 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		035F6B4E35CAE2D6D50840ABC991E033 /* SKRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKRequest.h; path = SoapKit/Soap/SKRequest.h; sourceTree = "<group>"; };
+		0779B575709F58BC740CE11D517E00A2 /* libPods-EDEA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EDEA.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BE17EC2D772A8A597C7D53012606780 /* CZPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CZPickerView.m; path = Pod/Classes/CZPickerView.m; sourceTree = "<group>"; };
+		0CC2F68248A7A9A21AB4A505E7F19319 /* UIColor+HexString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+HexString.m"; path = "TWRCharts/UIColor+HexString.m"; sourceTree = "<group>"; };
+		1240257F37B11D7921BAE99FCDD02845 /* libLGDrawer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLGDrawer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		164408B91EA17C723DD3FF603A863EC5 /* SKData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKData.h; path = SoapKit/Soap/SKData.h; sourceTree = "<group>"; };
+		181355BE5658B5AF62A8F729A85AEF91 /* LGDrawer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGDrawer.h; path = LGDrawer/LGDrawer.h; sourceTree = "<group>"; };
+		1C0DD2F4250373A9AFB0593AC172BFAF /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		1D64B7D262D124B31333F127624FA765 /* Pods-EDEA-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EDEA-frameworks.sh"; sourceTree = "<group>"; };
+		1DBAC84A44E8FEAD57A1A03B6C5277B6 /* SoapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SoapKit-prefix.pch"; sourceTree = "<group>"; };
+		211F610489C6A114D4C42D3E2C8DBD73 /* CZPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CZPickerView.h; path = Pod/Classes/CZPickerView.h; sourceTree = "<group>"; };
+		249091F66126767CCE14F2E91129393B /* Pods-EDEA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EDEA.release.xcconfig"; sourceTree = "<group>"; };
+		2587590D3101E6C1E8A400CF12182A2A /* TWRDataSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TWRDataSet.m; path = TWRCharts/TWRDataSet.m; sourceTree = "<group>"; };
+		26DB63503DD6D8DC97B12232C8FB9DDC /* TWRCircularChart.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TWRCircularChart.m; path = TWRCharts/TWRCircularChart.m; sourceTree = "<group>"; };
+		27F01937AFE5975F251247C22FC12292 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		2AF4F3E78E54C28AE9320C99EDE47F3D /* GDataXMLNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDataXMLNode.m; path = SoapKit/Util/GDataXMLNode.m; sourceTree = "<group>"; };
+		2F1D480281902967490D994C2F0EAC96 /* CZPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CZPicker-dummy.m"; sourceTree = "<group>"; };
+		32FB2913BF359AF973BE6915C6427117 /* TWRDataSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TWRDataSet.h; path = TWRCharts/TWRDataSet.h; sourceTree = "<group>"; };
+		330A0589CB8F1DDAD3AAAE3943182448 /* TWRDataSet+Strings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TWRDataSet+Strings.h"; path = "TWRCharts/TWRDataSet+Strings.h"; sourceTree = "<group>"; };
+		37B89F0D7D7F328DC1DA31A39F4EF5F7 /* LGDrawer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGDrawer.m; path = LGDrawer/LGDrawer.m; sourceTree = "<group>"; };
+		3D631E6B15DD0FBFFB5CF6572E0D32F5 /* TWRCircularChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TWRCircularChart.h; path = TWRCharts/TWRCircularChart.h; sourceTree = "<group>"; };
+		3EAABAD539A6B7E243260FC171CAF1D6 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		47BF37C2788294B156E4249B587AD133 /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		51C8E09F9B8FAEB6F30F511F660946E8 /* SKService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKService.h; path = SoapKit/Soap/SKService.h; sourceTree = "<group>"; };
+		5332D50D318168B5A105180DFC4D5BB3 /* libSoapKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSoapKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		575E001731C50C10A9E6D2575AE41C58 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		5DCFDDAD64C4291B0DFA4D65ED7B276A /* SKService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKService.m; path = SoapKit/Soap/SKService.m; sourceTree = "<group>"; };
+		6056D9F91F20D51D8E011050BBE2E39B /* LGRadioButtonsView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGRadioButtonsView-prefix.pch"; sourceTree = "<group>"; };
+		61A26C61947FBA15A4C749D3F30F29CD /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		61E41550FB4B92219AAAEE83006168F1 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		629B18D5419976010C17BE0A768C35AE /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		640B1AF43282DD489E78E47542D1E2ED /* LGDrawer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGDrawer.xcconfig; sourceTree = "<group>"; };
+		66187388FBE728CFBD3D734A2CCCCD12 /* SoapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SoapKit.xcconfig; sourceTree = "<group>"; };
+		68EBA07090CB8AA1B79FED4884BB0025 /* ISO8601DateFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ISO8601DateFormatter.h; sourceTree = "<group>"; };
+		6A9AF568FAB89C386069E3E716DF4409 /* TWRBarChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TWRBarChart.h; path = TWRCharts/TWRBarChart.h; sourceTree = "<group>"; };
+		6FD1450852B11BCC42D46FB02917DBDC /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
+		70D953A4B857BF1A99F5C528760B65E6 /* CZPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CZPicker-prefix.pch"; sourceTree = "<group>"; };
+		7222B06ECFC9BD65253935238E72DD89 /* libFMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFMDB.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		761F1AC4BCAA9E4A00CC3B589C37DE12 /* LGRadioButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGRadioButton.h; path = LGRadioButtonsView/LGRadioButton.h; sourceTree = "<group>"; };
+		76320C258360FC0E1CA66CBC9A6F635F /* Pods-EDEA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EDEA-dummy.m"; sourceTree = "<group>"; };
+		7703B17AD9107F559D6C7681E630F4D0 /* SKRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKRequest.m; path = SoapKit/Soap/SKRequest.m; sourceTree = "<group>"; };
+		7A92824395803556C0DE588909A8A5FB /* TWRChartBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TWRChartBuilder.m; path = TWRCharts/TWRChartBuilder.m; sourceTree = "<group>"; };
+		7E1F8C0C8171136B67D823C1B0C61DF4 /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
+		82E41B00D6AFD0B5CD1FBEFBBAEAAB05 /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C32C68AB246F561982DDE569267E175 /* Pods-EDEA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EDEA.debug.xcconfig"; sourceTree = "<group>"; };
+		8F37B5ADEBE6C55AC0285FA951EBEC8B /* UIColor+HexString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+HexString.h"; path = "TWRCharts/UIColor+HexString.h"; sourceTree = "<group>"; };
+		8F9562190861599CE2D2E1A21C4B43A5 /* ISO8601DateFormatter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ISO8601DateFormatter-dummy.m"; sourceTree = "<group>"; };
+		913E6CF398E64F5B21A3A1EC710EE3BD /* SKData+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKData+Private.h"; path = "SoapKit/Soap/SKData+Private.h"; sourceTree = "<group>"; };
+		91413329813FA6FE5A78842159E69621 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9527665AA3C95D6E0D752A51D9DADD42 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		9631D7EBBCE9C6412B5E15F2E332DE28 /* TWRCharts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TWRCharts-prefix.pch"; sourceTree = "<group>"; };
+		9712CC5165B8A45AD049ADFB6CC185D6 /* CZPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CZPicker.h; path = Pod/Classes/CZPicker.h; sourceTree = "<group>"; };
+		99908E5EC051D280172619934C1A1072 /* Pods-EDEA-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EDEA-acknowledgements.plist"; sourceTree = "<group>"; };
+		9C2C95A4BCD990B600FAB9E38A30065C /* ISO8601DateFormatter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ISO8601DateFormatter.xcconfig; sourceTree = "<group>"; };
+		9EDB2EBB1835A9D26DF14FEF61842AD2 /* TWRChartBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TWRChartBuilder.h; path = TWRCharts/TWRChartBuilder.h; sourceTree = "<group>"; };
+		A1AA38A91F1C9A1B34860A60FDDA4F17 /* TWRCharts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TWRCharts-dummy.m"; sourceTree = "<group>"; };
+		A5318F80C24E867DD80DF0FE4CB6852D /* libCZPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCZPicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A60477DF9D30717B399CBEB038D9CD00 /* LGRadioButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGRadioButton.m; path = LGRadioButtonsView/LGRadioButton.m; sourceTree = "<group>"; };
+		A7971FC38A27F07581DD58F76D0BEBE8 /* FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.xcconfig; sourceTree = "<group>"; };
+		AA002FEDBC383F4B9C0A9BE91A82448A /* LGDrawer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGDrawer-prefix.pch"; sourceTree = "<group>"; };
+		AE3B1A8CA7E9F1B7987D4466C4DB81CC /* LGRadioButtonsView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGRadioButtonsView.xcconfig; sourceTree = "<group>"; };
+		AF0070E715333565A89826C89AE10913 /* CZPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CZPicker.xcconfig; sourceTree = "<group>"; };
+		AF7E9C32EB875BF1EA7A51C92EB5AD40 /* GDataXMLNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDataXMLNode.h; path = SoapKit/Util/GDataXMLNode.h; sourceTree = "<group>"; };
+		B0105330749A6F4F0D274B2DAC1CB2AD /* Pods-EDEA-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EDEA-resources.sh"; sourceTree = "<group>"; };
+		B0D1CB837669D8B978365582C3DDD624 /* CZPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CZPicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B16B198B1A67CDF798B2292ADA63FBD2 /* libISO8601DateFormatter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libISO8601DateFormatter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B69C553095EFF05667E79052BC688B0B /* TWRLineChart.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TWRLineChart.m; path = TWRCharts/TWRLineChart.m; sourceTree = "<group>"; };
+		B6F7240AC4693F25744DA5AC43957C02 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		B749A172461CB306A17479D1B5F7C760 /* SKData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKData.m; path = SoapKit/Soap/SKData.m; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB60B2F48A888B45ACE867F0BC9BE991 /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		BC6818B96E0D1BD5D92BB1B31C6D8D4A /* LGRadioButtonsView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LGRadioButtonsView-dummy.m"; sourceTree = "<group>"; };
+		C21D2357E1C667B1B11FCB6AD9FF7BCD /* TWRChartView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TWRChartView.h; path = TWRCharts/TWRChartView.h; sourceTree = "<group>"; };
+		C53FA396F0F79D4CFDB5A6C1349A1C4E /* libLGRadioButtonsView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLGRadioButtonsView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C572334C60097C49271ADB11D96C9A7D /* Chart.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = Chart.js; path = TWRCharts/Chart.js; sourceTree = "<group>"; };
+		C68856FCA516AED5716729759E33E405 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		CA21AA302FBA878C5F4B79BF970654EC /* libTWRCharts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTWRCharts.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D10CA27BC3F1BA83DE3C7A03A254F2A0 /* TWRChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TWRChart.h; path = TWRCharts/TWRChart.h; sourceTree = "<group>"; };
+		D179FFBA1705C764AD0337AAEA043FC6 /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = index.html; path = TWRCharts/index.html; sourceTree = "<group>"; };
+		D1940ED3AAB819DBEF773E4306727FBB /* ISO8601DateFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ISO8601DateFormatter.m; sourceTree = "<group>"; };
+		D26467B61480F4195F0CDE57E423F9FD /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		D31B579D341380F6A331D58A14942E1D /* SoapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SoapKit-dummy.m"; sourceTree = "<group>"; };
+		D3CB971002B4D2C9B88B6632AD49FBEF /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		D4512A7D3673ADEFA64EB80645285FF9 /* TWRLineChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TWRLineChart.h; path = TWRCharts/TWRLineChart.h; sourceTree = "<group>"; };
+		D9DE615671731BF3AEFB3CB1F984FA8F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DB0C0D153E2A72902CEF56BBBD9F1EC5 /* LGRadioButtonsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGRadioButtonsView.m; path = LGRadioButtonsView/LGRadioButtonsView.m; sourceTree = "<group>"; };
+		DC4DE68B5FC03850F0D5A115A5C7ADB0 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		E122A9FC467838FBDF5AA5E715E80982 /* Pods-EDEA-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EDEA-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E39D03823EB9C02EB1FE8C55710D4A53 /* LGDrawer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LGDrawer-dummy.m"; sourceTree = "<group>"; };
+		E3E465FFB16E82514C586EA42CD980E6 /* TWRDataSet+Strings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "TWRDataSet+Strings.m"; path = "TWRCharts/TWRDataSet+Strings.m"; sourceTree = "<group>"; };
+		E642B1A057ADA2ABEF90BE2417F349C1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		E6A9888373580442E1CA4A194DA7346F /* TWRBarChart.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TWRBarChart.m; path = TWRCharts/TWRBarChart.m; sourceTree = "<group>"; };
+		EC45A1CFA160254513CCCB1E9E3FEC67 /* ISO8601DateFormatter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ISO8601DateFormatter-prefix.pch"; sourceTree = "<group>"; };
+		EF5731996DD11306FFB7D33698734E8A /* TWRChartView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TWRChartView.m; path = TWRCharts/TWRChartView.m; sourceTree = "<group>"; };
+		F22E11FCDB15AA22F52CC41EC6ECC10A /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		F2DA99ADBCBE8625F88F97E3A86E58FF /* LGRadioButtonsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGRadioButtonsView.h; path = LGRadioButtonsView/LGRadioButtonsView.h; sourceTree = "<group>"; };
+		F36B4836F91C8BB55B35D97D13EF61CE /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		F934B1F0B779ABEC2C06612754A7999D /* SoapKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SoapKit.h; path = SoapKit/SoapKit.h; sourceTree = "<group>"; };
+		FC5F548AEA77C12451295636FA454663 /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08EB69F20F4114F1580753DD09B6E7C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62861968DA0CCA5F4884BCA2FB17FBF6 /* Foundation.framework in Frameworks */,
+				8E3EFA64B7C9E90118E8E93C843D3941 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27FA4BB47451EA565687EDF527D1E5A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8DAF20558737E41904338F4062FD318 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		382106383C7371DC3CEA951C7E6A05E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AF63084FFE4472EFC6131BD113B13D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587B76A3E381AF7C3EFFDF6754D39288 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		987E53E37B101DD067475FB9A3317591 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD59025A3A2E50BE3F1A28B455CDF086 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEFB35DCE10E2EADD23605D37F5B30F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A1C07B9C48F8DF6578FE6425959070 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7EB251366176BF0864BC5C99FA74F87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6DB0F695DF4BAD7E26BEFF289FF2CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D13A914D6330CA195C9E5641D5916B7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				318548A8C4BB9096501EF4B96001F4F1 /* Foundation.framework in Frameworks */,
+				D53B7434F47156F9A7DEA85B87CBC921 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54AADA6848D46658714E5B0F40666EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22516D4FE6327F70B83196DD18B237CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD475766CB3AC8D49FCAD8D8C08FD681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C54B82A283C4745F5E00859DC44FE7B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA23025FEDA7F7FE2AACB2532BD80D14 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2223FE028C6600AD21ED82A0A3C8C4F6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0186D87D0893B468895F14EF82573AB5 /* TWRCharts.xcconfig */,
+				A1AA38A91F1C9A1B34860A60FDDA4F17 /* TWRCharts-dummy.m */,
+				9631D7EBBCE9C6412B5E15F2E332DE28 /* TWRCharts-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TWRCharts";
+			sourceTree = "<group>";
+		};
+		3975F8E5FAB65162F62D300D8C56DAF0 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				D3CB971002B4D2C9B88B6632AD49FBEF /* FMDatabase.h */,
+				1C0DD2F4250373A9AFB0593AC172BFAF /* FMDatabase.m */,
+				01F8939E7126ADB2C01491F3BA020935 /* FMDatabaseAdditions.h */,
+				F22E11FCDB15AA22F52CC41EC6ECC10A /* FMDatabaseAdditions.m */,
+				47BF37C2788294B156E4249B587AD133 /* FMDatabasePool.h */,
+				FC5F548AEA77C12451295636FA454663 /* FMDatabasePool.m */,
+				DC4DE68B5FC03850F0D5A115A5C7ADB0 /* FMDatabaseQueue.h */,
+				C68856FCA516AED5716729759E33E405 /* FMDatabaseQueue.m */,
+				3EAABAD539A6B7E243260FC171CAF1D6 /* FMDB.h */,
+				BB60B2F48A888B45ACE867F0BC9BE991 /* FMResultSet.h */,
+				575E001731C50C10A9E6D2575AE41C58 /* FMResultSet.m */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		3CEB8338DA05E59814E36D9C7BB3F8B5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF0070E715333565A89826C89AE10913 /* CZPicker.xcconfig */,
+				2F1D480281902967490D994C2F0EAC96 /* CZPicker-dummy.m */,
+				70D953A4B857BF1A99F5C528760B65E6 /* CZPicker-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CZPicker";
+			sourceTree = "<group>";
+		};
+		4B726555AFD91B283D95D1D7F127A412 /* LGRadioButtonsView */ = {
+			isa = PBXGroup;
+			children = (
+				761F1AC4BCAA9E4A00CC3B589C37DE12 /* LGRadioButton.h */,
+				A60477DF9D30717B399CBEB038D9CD00 /* LGRadioButton.m */,
+				F2DA99ADBCBE8625F88F97E3A86E58FF /* LGRadioButtonsView.h */,
+				DB0C0D153E2A72902CEF56BBBD9F1EC5 /* LGRadioButtonsView.m */,
+				9486AD169914BB234DDA6C678983BAA4 /* Support Files */,
+			);
+			path = LGRadioButtonsView;
+			sourceTree = "<group>";
+		};
+		65D97DB72260015DC31866B23A7D935C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66187388FBE728CFBD3D734A2CCCCD12 /* SoapKit.xcconfig */,
+				D31B579D341380F6A331D58A14942E1D /* SoapKit-dummy.m */,
+				1DBAC84A44E8FEAD57A1A03B6C5277B6 /* SoapKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SoapKit";
+			sourceTree = "<group>";
+		};
+		6E3123FADDC93F10C2F13A6158E877ED /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7971FC38A27F07581DD58F76D0BEBE8 /* FMDB.xcconfig */,
+				6FD1450852B11BCC42D46FB02917DBDC /* FMDB-dummy.m */,
+				7E1F8C0C8171136B67D823C1B0C61DF4 /* FMDB-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FMDB";
+			sourceTree = "<group>";
+		};
+		77E4C71CE5BEE7979797D50E7761BCC8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C05F7BEED7952921220A77BCD02ECAE4 /* Pods-EDEA */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				D56E05986B5683C661B8715BD48DFA39 /* Pods */,
+				8183AB2BCB3306212DAD5ED0A3DDB5E1 /* Products */,
+				77E4C71CE5BEE7979797D50E7761BCC8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8120F13BBE209320A47BFBCBE2CBFB76 /* CZPicker */ = {
+			isa = PBXGroup;
+			children = (
+				9712CC5165B8A45AD049ADFB6CC185D6 /* CZPicker.h */,
+				211F610489C6A114D4C42D3E2C8DBD73 /* CZPickerView.h */,
+				0BE17EC2D772A8A597C7D53012606780 /* CZPickerView.m */,
+				3CEB8338DA05E59814E36D9C7BB3F8B5 /* Support Files */,
+			);
+			path = CZPicker;
+			sourceTree = "<group>";
+		};
+		8183AB2BCB3306212DAD5ED0A3DDB5E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0D1CB837669D8B978365582C3DDD624 /* CZPicker.bundle */,
+				A5318F80C24E867DD80DF0FE4CB6852D /* libCZPicker.a */,
+				7222B06ECFC9BD65253935238E72DD89 /* libFMDB.a */,
+				B16B198B1A67CDF798B2292ADA63FBD2 /* libISO8601DateFormatter.a */,
+				1240257F37B11D7921BAE99FCDD02845 /* libLGDrawer.a */,
+				C53FA396F0F79D4CFDB5A6C1349A1C4E /* libLGRadioButtonsView.a */,
+				0779B575709F58BC740CE11D517E00A2 /* libPods-EDEA.a */,
+				5332D50D318168B5A105180DFC4D5BB3 /* libSoapKit.a */,
+				82E41B00D6AFD0B5CD1FBEFBBAEAAB05 /* libSVProgressHUD.a */,
+				CA21AA302FBA878C5F4B79BF970654EC /* libTWRCharts.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82CE34DF0EEFDE73990A01849F56FA0D /* LGDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				181355BE5658B5AF62A8F729A85AEF91 /* LGDrawer.h */,
+				37B89F0D7D7F328DC1DA31A39F4EF5F7 /* LGDrawer.m */,
+				C2C21DDF1D1B37EECA966AF1B308EE86 /* Support Files */,
+			);
+			path = LGDrawer;
+			sourceTree = "<group>";
+		};
+		87C9E8F62B68749F6637F2234391D126 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				B6F7240AC4693F25744DA5AC43957C02 /* SVIndefiniteAnimatedView.h */,
+				D26467B61480F4195F0CDE57E423F9FD /* SVIndefiniteAnimatedView.m */,
+				61E41550FB4B92219AAAEE83006168F1 /* SVProgressHUD.h */,
+				F36B4836F91C8BB55B35D97D13EF61CE /* SVProgressHUD.m */,
+				F20FF2D09485B5D6582B6692FFEE3ABD /* Resources */,
+				9FE36090BD7912393E072AB27D6C6F6E /* Support Files */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		8E59EF75D918126A04A2F491FE89F838 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AF7E9C32EB875BF1EA7A51C92EB5AD40 /* GDataXMLNode.h */,
+				2AF4F3E78E54C28AE9320C99EDE47F3D /* GDataXMLNode.m */,
+				164408B91EA17C723DD3FF603A863EC5 /* SKData.h */,
+				B749A172461CB306A17479D1B5F7C760 /* SKData.m */,
+				913E6CF398E64F5B21A3A1EC710EE3BD /* SKData+Private.h */,
+				035F6B4E35CAE2D6D50840ABC991E033 /* SKRequest.h */,
+				7703B17AD9107F559D6C7681E630F4D0 /* SKRequest.m */,
+				51C8E09F9B8FAEB6F30F511F660946E8 /* SKService.h */,
+				5DCFDDAD64C4291B0DFA4D65ED7B276A /* SKService.m */,
+				F934B1F0B779ABEC2C06612754A7999D /* SoapKit.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		9486AD169914BB234DDA6C678983BAA4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE3B1A8CA7E9F1B7987D4466C4DB81CC /* LGRadioButtonsView.xcconfig */,
+				BC6818B96E0D1BD5D92BB1B31C6D8D4A /* LGRadioButtonsView-dummy.m */,
+				6056D9F91F20D51D8E011050BBE2E39B /* LGRadioButtonsView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LGRadioButtonsView";
+			sourceTree = "<group>";
+		};
+		9FE36090BD7912393E072AB27D6C6F6E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				27F01937AFE5975F251247C22FC12292 /* SVProgressHUD.xcconfig */,
+				629B18D5419976010C17BE0A768C35AE /* SVProgressHUD-dummy.m */,
+				61A26C61947FBA15A4C749D3F30F29CD /* SVProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		AA6AEE1D180D0D9B79D9C1479DA71AF4 /* TWRCharts */ = {
+			isa = PBXGroup;
+			children = (
+				C572334C60097C49271ADB11D96C9A7D /* Chart.js */,
+				D179FFBA1705C764AD0337AAEA043FC6 /* index.html */,
+				6A9AF568FAB89C386069E3E716DF4409 /* TWRBarChart.h */,
+				E6A9888373580442E1CA4A194DA7346F /* TWRBarChart.m */,
+				D10CA27BC3F1BA83DE3C7A03A254F2A0 /* TWRChart.h */,
+				9EDB2EBB1835A9D26DF14FEF61842AD2 /* TWRChartBuilder.h */,
+				7A92824395803556C0DE588909A8A5FB /* TWRChartBuilder.m */,
+				C21D2357E1C667B1B11FCB6AD9FF7BCD /* TWRChartView.h */,
+				EF5731996DD11306FFB7D33698734E8A /* TWRChartView.m */,
+				3D631E6B15DD0FBFFB5CF6572E0D32F5 /* TWRCircularChart.h */,
+				26DB63503DD6D8DC97B12232C8FB9DDC /* TWRCircularChart.m */,
+				32FB2913BF359AF973BE6915C6427117 /* TWRDataSet.h */,
+				2587590D3101E6C1E8A400CF12182A2A /* TWRDataSet.m */,
+				330A0589CB8F1DDAD3AAAE3943182448 /* TWRDataSet+Strings.h */,
+				E3E465FFB16E82514C586EA42CD980E6 /* TWRDataSet+Strings.m */,
+				D4512A7D3673ADEFA64EB80645285FF9 /* TWRLineChart.h */,
+				B69C553095EFF05667E79052BC688B0B /* TWRLineChart.m */,
+				8F37B5ADEBE6C55AC0285FA951EBEC8B /* UIColor+HexString.h */,
+				0CC2F68248A7A9A21AB4A505E7F19319 /* UIColor+HexString.m */,
+				2223FE028C6600AD21ED82A0A3C8C4F6 /* Support Files */,
+			);
+			path = TWRCharts;
+			sourceTree = "<group>";
+		};
+		AD42F68E564004F4CAF58831788151A6 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				3975F8E5FAB65162F62D300D8C56DAF0 /* common */,
+				6E3123FADDC93F10C2F13A6158E877ED /* Support Files */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		BBEC5FED06B9D15AFF9DAB5D5C3865E8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C2C95A4BCD990B600FAB9E38A30065C /* ISO8601DateFormatter.xcconfig */,
+				8F9562190861599CE2D2E1A21C4B43A5 /* ISO8601DateFormatter-dummy.m */,
+				EC45A1CFA160254513CCCB1E9E3FEC67 /* ISO8601DateFormatter-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ISO8601DateFormatter";
+			sourceTree = "<group>";
+		};
+		BDAD5737BCDCE7A148EE573871B229CE /* SoapKit */ = {
+			isa = PBXGroup;
+			children = (
+				8E59EF75D918126A04A2F491FE89F838 /* Core */,
+				65D97DB72260015DC31866B23A7D935C /* Support Files */,
+			);
+			path = SoapKit;
+			sourceTree = "<group>";
+		};
+		BE2411CF7B1759F2F67E919C72AD4537 /* ISO8601DateFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				68EBA07090CB8AA1B79FED4884BB0025 /* ISO8601DateFormatter.h */,
+				D1940ED3AAB819DBEF773E4306727FBB /* ISO8601DateFormatter.m */,
+				BBEC5FED06B9D15AFF9DAB5D5C3865E8 /* Support Files */,
+			);
+			path = ISO8601DateFormatter;
+			sourceTree = "<group>";
+		};
+		C05F7BEED7952921220A77BCD02ECAE4 /* Pods-EDEA */ = {
+			isa = PBXGroup;
+			children = (
+				E122A9FC467838FBDF5AA5E715E80982 /* Pods-EDEA-acknowledgements.markdown */,
+				99908E5EC051D280172619934C1A1072 /* Pods-EDEA-acknowledgements.plist */,
+				76320C258360FC0E1CA66CBC9A6F635F /* Pods-EDEA-dummy.m */,
+				1D64B7D262D124B31333F127624FA765 /* Pods-EDEA-frameworks.sh */,
+				B0105330749A6F4F0D274B2DAC1CB2AD /* Pods-EDEA-resources.sh */,
+				8C32C68AB246F561982DDE569267E175 /* Pods-EDEA.debug.xcconfig */,
+				249091F66126767CCE14F2E91129393B /* Pods-EDEA.release.xcconfig */,
+			);
+			name = "Pods-EDEA";
+			path = "Target Support Files/Pods-EDEA";
+			sourceTree = "<group>";
+		};
+		C2C21DDF1D1B37EECA966AF1B308EE86 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				640B1AF43282DD489E78E47542D1E2ED /* LGDrawer.xcconfig */,
+				E39D03823EB9C02EB1FE8C55710D4A53 /* LGDrawer-dummy.m */,
+				AA002FEDBC383F4B9C0A9BE91A82448A /* LGDrawer-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LGDrawer";
+			sourceTree = "<group>";
+		};
+		D56E05986B5683C661B8715BD48DFA39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8120F13BBE209320A47BFBCBE2CBFB76 /* CZPicker */,
+				AD42F68E564004F4CAF58831788151A6 /* FMDB */,
+				BE2411CF7B1759F2F67E919C72AD4537 /* ISO8601DateFormatter */,
+				82CE34DF0EEFDE73990A01849F56FA0D /* LGDrawer */,
+				4B726555AFD91B283D95D1D7F127A412 /* LGRadioButtonsView */,
+				BDAD5737BCDCE7A148EE573871B229CE /* SoapKit */,
+				87C9E8F62B68749F6637F2234391D126 /* SVProgressHUD */,
+				AA6AEE1D180D0D9B79D9C1479DA71AF4 /* TWRCharts */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DA23025FEDA7F7FE2AACB2532BD80D14 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				91413329813FA6FE5A78842159E69621 /* Foundation.framework */,
+				E642B1A057ADA2ABEF90BE2417F349C1 /* QuartzCore.framework */,
+				D9DE615671731BF3AEFB3CB1F984FA8F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F20FF2D09485B5D6582B6692FFEE3ABD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9527665AA3C95D6E0D752A51D9DADD42 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3CA5BD5372C7CEC6DE1557D9F88AC29F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C452E8DDECEC3B3ED7DFE86037F2127E /* LGDrawer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E2023BFCA7837A8B1F0D9537CF68403 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D965224EF62B003C441D563267D38989 /* SVIndefiniteAnimatedView.h in Headers */,
+				2A8CCA82F9EB63332068A9E80E21EC0B /* SVProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8424D30A2480DA224EDEF8FCF45BEBEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC7D7F9F45667B8854AF12F610EE2BE /* ISO8601DateFormatter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2D82357BE4C2A10AB2CD4724B8E654 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D5FFE53407F16C9CD3D0ECF43ACE93 /* FMDatabase.h in Headers */,
+				B418C9BDCF8C6BAC2E3942F157BB6D4C /* FMDatabaseAdditions.h in Headers */,
+				0F8A8E0D6FAEBF758E0B4D620335F094 /* FMDatabasePool.h in Headers */,
+				D0C5FF5485EAA2CDA03E9796B407697A /* FMDatabaseQueue.h in Headers */,
+				313531CEDA0294311D87B4F4C3F073F4 /* FMDB.h in Headers */,
+				F977B243321331B58666E9284634101A /* FMResultSet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3BBA67004C65F05AA025E2264180C0F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A6366C9618C0A48F088DE6E4DD6E8EE /* CZPicker.h in Headers */,
+				B8D1BB7BF05D65F7F43EB598387A9F8E /* CZPickerView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A86FAEE8BACFB91399D6EA730305C7FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				400B91B11748626BD57EA0345337CB11 /* GDataXMLNode.h in Headers */,
+				ACA0D763B6B90CB3B0B98BD576093464 /* SKData+Private.h in Headers */,
+				BA5B28789CF0F03D3AA145C6EC25578A /* SKData.h in Headers */,
+				D72CAE4ECF915DD4288FE4E8A2CCF490 /* SKRequest.h in Headers */,
+				FB5C33E6A3B084B0D0F5345F506662DD /* SKService.h in Headers */,
+				36C2867385077C70DEBEF856EBA60CA8 /* SoapKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A756FE557CD4DE70277961889A886F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B33D39EEB60400F7CDA1FE49DA75DA2 /* LGRadioButton.h in Headers */,
+				4DAC6DE9DB2A4F7EE27A025736FE5F0B /* LGRadioButtonsView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF2E67699B8BB3FB93AC175778B6BB27 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A46D4F2B25EB0C1542DA65F95998B1D /* TWRBarChart.h in Headers */,
+				1825FEBDB3322F3480AAC2D17C362C94 /* TWRChart.h in Headers */,
+				5272EE7AC76ABA231F58E21CA6094453 /* TWRChartBuilder.h in Headers */,
+				B86DB75B82D739B76ECF49E86EF75158 /* TWRChartView.h in Headers */,
+				1E487130C8682552DAB9387108245189 /* TWRCircularChart.h in Headers */,
+				8AADCEE8ED7E675FD285BFB870349F6B /* TWRDataSet+Strings.h in Headers */,
+				39C19B943C21331A771BC7AD66F79E58 /* TWRDataSet.h in Headers */,
+				663B4723F4AAB8347426EE46E8A0F621 /* TWRLineChart.h in Headers */,
+				738BE64BDAD7D394B78FD3446C5485E4 /* UIColor+HexString.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1246D72EBE9DC6C28D83D23CB8AB1488 /* CZPicker-CZPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3877C3A95EF70432EA6BC46CF55F1A9E /* Build configuration list for PBXNativeTarget "CZPicker-CZPicker" */;
+			buildPhases = (
+				3AA5E30A3D02B86CBB2E618E717605CB /* Sources */,
+				382106383C7371DC3CEA951C7E6A05E3 /* Frameworks */,
+				2C26AEF02C265D3741289DBC1C030E23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CZPicker-CZPicker";
+			productName = "CZPicker-CZPicker";
+			productReference = B0D1CB837669D8B978365582C3DDD624 /* CZPicker.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		275E73B6E5B3B9AE90658D79E7012005 /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E153E703D2EB79727CAA7D4FA919D249 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				D959F0E168C465BC6AFD3EABC0745F1F /* Sources */,
+				D13A914D6330CA195C9E5641D5916B7E /* Frameworks */,
+				4E2023BFCA7837A8B1F0D9537CF68403 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = 82E41B00D6AFD0B5CD1FBEFBBAEAAB05 /* libSVProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3A39A1DDE806EEA6270BC9ED2CD0AEE8 /* LGDrawer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 268609926F87B73EC4C421FBD9B4FB93 /* Build configuration list for PBXNativeTarget "LGDrawer" */;
+			buildPhases = (
+				5FF9EF3707E22047D10AF600E941BFBB /* Sources */,
+				FD475766CB3AC8D49FCAD8D8C08FD681 /* Frameworks */,
+				3CA5BD5372C7CEC6DE1557D9F88AC29F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGDrawer;
+			productName = LGDrawer;
+			productReference = 1240257F37B11D7921BAE99FCDD02845 /* libLGDrawer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		66BAFE48E61D0FD962914D7A750DE26A /* CZPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B74C8CF3DB924E3136F42D30CEF937BC /* Build configuration list for PBXNativeTarget "CZPicker" */;
+			buildPhases = (
+				309DF29FF7E78149996B7550EAC39CD4 /* Sources */,
+				08EB69F20F4114F1580753DD09B6E7C3 /* Frameworks */,
+				A3BBA67004C65F05AA025E2264180C0F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23C8BD4D3E036C6A056E1849727EB2D2 /* PBXTargetDependency */,
+			);
+			name = CZPicker;
+			productName = CZPicker;
+			productReference = A5318F80C24E867DD80DF0FE4CB6852D /* libCZPicker.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7B4112A168B1BC719C9FE6FC2F729B44 /* Pods-EDEA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3797341A60FDF05867FE00E61FA7647B /* Build configuration list for PBXNativeTarget "Pods-EDEA" */;
+			buildPhases = (
+				5A11085EEE0669998CEC84A9AEEAF828 /* Sources */,
+				C7EB251366176BF0864BC5C99FA74F87 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20D79B90F32EEA0A3F13BF411F9EF581 /* PBXTargetDependency */,
+				5EA162806C077B285C1CB45C05506B8D /* PBXTargetDependency */,
+				5590A33301FD2B8625D4F92C38EBAB29 /* PBXTargetDependency */,
+				FD90F4D52AEF36409F4E3AF1DEB224F6 /* PBXTargetDependency */,
+				8A4AFBFC1DE6CBD2E91162FE9B68BA36 /* PBXTargetDependency */,
+				604442854E7FC196B6D69014795204D9 /* PBXTargetDependency */,
+				550707218986CBFE00C6F14DB56596F2 /* PBXTargetDependency */,
+				057D8603D910EB7F51F0E91A1E5F9A2E /* PBXTargetDependency */,
+			);
+			name = "Pods-EDEA";
+			productName = "Pods-EDEA";
+			productReference = 0779B575709F58BC740CE11D517E00A2 /* libPods-EDEA.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8C27E525859B3E87E10BE1BE6A2DD443 /* SoapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BBDDB3936050C110F459C3A50B1B37F /* Build configuration list for PBXNativeTarget "SoapKit" */;
+			buildPhases = (
+				FD22CCBF5BC9F2BE1D496731A8AED1BC /* Sources */,
+				9AEFB35DCE10E2EADD23605D37F5B30F /* Frameworks */,
+				A86FAEE8BACFB91399D6EA730305C7FB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40289D7DA03391C5AB8B1D8BAC495160 /* PBXTargetDependency */,
+			);
+			name = SoapKit;
+			productName = SoapKit;
+			productReference = 5332D50D318168B5A105180DFC4D5BB3 /* libSoapKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9556CC35DE4973EE762BB4F3A46E5510 /* TWRCharts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC89B66BD1351677CB045656DC71A717 /* Build configuration list for PBXNativeTarget "TWRCharts" */;
+			buildPhases = (
+				8BA9442D205648D9B9B340D7C039CB72 /* Sources */,
+				27FA4BB47451EA565687EDF527D1E5A6 /* Frameworks */,
+				DF2E67699B8BB3FB93AC175778B6BB27 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TWRCharts;
+			productName = TWRCharts;
+			productReference = CA21AA302FBA878C5F4B79BF970654EC /* libTWRCharts.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9F12FB4A63E20F601CFB2E64A65B57C1 /* FMDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AC899FD215914230EB9D8B57AD910D0 /* Build configuration list for PBXNativeTarget "FMDB" */;
+			buildPhases = (
+				050B66E154969A68944942A22BD9B314 /* Sources */,
+				84AF63084FFE4472EFC6131BD113B13D /* Frameworks */,
+				8B2D82357BE4C2A10AB2CD4724B8E654 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMDB;
+			productName = FMDB;
+			productReference = 7222B06ECFC9BD65253935238E72DD89 /* libFMDB.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B0267AE73E97C7576F08F4911FEFECD5 /* ISO8601DateFormatter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BE723EBBD599DAAC6F54AE696E7C154 /* Build configuration list for PBXNativeTarget "ISO8601DateFormatter" */;
+			buildPhases = (
+				146531E9FE32904454800D77ED369E22 /* Sources */,
+				987E53E37B101DD067475FB9A3317591 /* Frameworks */,
+				8424D30A2480DA224EDEF8FCF45BEBEA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ISO8601DateFormatter;
+			productName = ISO8601DateFormatter;
+			productReference = B16B198B1A67CDF798B2292ADA63FBD2 /* libISO8601DateFormatter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B85DEDB1E639DF2A558CDC3A15CEB637 /* LGRadioButtonsView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C686E188F864F6A21D6495212A768B2D /* Build configuration list for PBXNativeTarget "LGRadioButtonsView" */;
+			buildPhases = (
+				917625301B5CFCD4020692D808C141EF /* Sources */,
+				F54AADA6848D46658714E5B0F40666EC /* Frameworks */,
+				D4A756FE557CD4DE70277961889A886F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGRadioButtonsView;
+			productName = LGRadioButtonsView;
+			productReference = C53FA396F0F79D4CFDB5A6C1349A1C4E /* libLGRadioButtonsView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8183AB2BCB3306212DAD5ED0A3DDB5E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66BAFE48E61D0FD962914D7A750DE26A /* CZPicker */,
+				1246D72EBE9DC6C28D83D23CB8AB1488 /* CZPicker-CZPicker */,
+				9F12FB4A63E20F601CFB2E64A65B57C1 /* FMDB */,
+				B0267AE73E97C7576F08F4911FEFECD5 /* ISO8601DateFormatter */,
+				3A39A1DDE806EEA6270BC9ED2CD0AEE8 /* LGDrawer */,
+				B85DEDB1E639DF2A558CDC3A15CEB637 /* LGRadioButtonsView */,
+				7B4112A168B1BC719C9FE6FC2F729B44 /* Pods-EDEA */,
+				8C27E525859B3E87E10BE1BE6A2DD443 /* SoapKit */,
+				275E73B6E5B3B9AE90658D79E7012005 /* SVProgressHUD */,
+				9556CC35DE4973EE762BB4F3A46E5510 /* TWRCharts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C26AEF02C265D3741289DBC1C030E23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		050B66E154969A68944942A22BD9B314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA027706DD6805766F1F4EC548E72440 /* FMDatabase.m in Sources */,
+				A350C5704A1F233DAD830E081E00F8C1 /* FMDatabaseAdditions.m in Sources */,
+				0EF8E9AA652DBE2745A7D5C8CD2E3BDE /* FMDatabasePool.m in Sources */,
+				282081E035E7A843068E8BCC2E07C217 /* FMDatabaseQueue.m in Sources */,
+				3D0F69C4CA35EB6A1F686BA88B19B4F6 /* FMDB-dummy.m in Sources */,
+				DEFA3504695E9DFDE1177DAB22884470 /* FMResultSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		146531E9FE32904454800D77ED369E22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0F6FD1E10963EA7F454D00BD33AF147 /* ISO8601DateFormatter-dummy.m in Sources */,
+				06DEF87B3F74B3BDD497AA1B58A591E8 /* ISO8601DateFormatter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		309DF29FF7E78149996B7550EAC39CD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1A9C56C61CB312DEA5D32957817F8B /* CZPicker-dummy.m in Sources */,
+				CAB05EA7138DB86E936DFC9C5CA03F6B /* CZPickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AA5E30A3D02B86CBB2E618E717605CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A11085EEE0669998CEC84A9AEEAF828 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1188B90AC71784E70DA205033D503A /* Pods-EDEA-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF9EF3707E22047D10AF600E941BFBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B5C1D145CC58E2384CB0A4BF967696E /* LGDrawer-dummy.m in Sources */,
+				D0FA6C22610083B4697160FB1CC99977 /* LGDrawer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BA9442D205648D9B9B340D7C039CB72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6B66EAA596EF9F0A9417284637073D /* Chart.js in Sources */,
+				CE445C1980EB14A7B1B288D238C412D2 /* index.html in Sources */,
+				E34611DE92E05F4C36F7D780FEB97FC9 /* TWRBarChart.m in Sources */,
+				0FB85C6B6900DC9432CE1BF0D18A3B31 /* TWRChartBuilder.m in Sources */,
+				2F686A2D9237E40E959C7280F3884379 /* TWRCharts-dummy.m in Sources */,
+				E3EC4D053CF709201E21926D4BD6F240 /* TWRChartView.m in Sources */,
+				BE62997CE014B63F1871EE21FE2466A8 /* TWRCircularChart.m in Sources */,
+				49766E62CAD4CEF94D5035938D5F2A3E /* TWRDataSet+Strings.m in Sources */,
+				A0268F291A3B234A9DE675E59BD3B88B /* TWRDataSet.m in Sources */,
+				7EBCE884230B2FC13741647856FDA12C /* TWRLineChart.m in Sources */,
+				32EE09513373607E89176F7BC7D324ED /* UIColor+HexString.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		917625301B5CFCD4020692D808C141EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B016140F25740CA45C5C3A306947865C /* LGRadioButton.m in Sources */,
+				DD8FCEED5111EB7A508137823DF0C184 /* LGRadioButtonsView-dummy.m in Sources */,
+				B40069DA1C6FF175790B47B4AE0C1C80 /* LGRadioButtonsView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D959F0E168C465BC6AFD3EABC0745F1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				502CDE65DD24F76B60D9220B9098D709 /* SVIndefiniteAnimatedView.m in Sources */,
+				F4CD4078E611B39C6AEE81E3952A402B /* SVProgressHUD-dummy.m in Sources */,
+				F7FFC058EC1AA804721BB0D5320DE85E /* SVProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD22CCBF5BC9F2BE1D496731A8AED1BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				721585E9232C19DE06EC115F3CF1F204 /* GDataXMLNode.m in Sources */,
+				71B4650902F3ECB411F6DA8CFA156DCD /* SKData.m in Sources */,
+				D3BA9A219608F740EB29E0F81386B2E8 /* SKRequest.m in Sources */,
+				89E1C7C04EDDE660A45C122961D3DE01 /* SKService.m in Sources */,
+				FCCE5A3DA89B8F8A75357145011613AB /* SoapKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		057D8603D910EB7F51F0E91A1E5F9A2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TWRCharts;
+			target = 9556CC35DE4973EE762BB4F3A46E5510 /* TWRCharts */;
+			targetProxy = 21DBF9791EC9B212B2EC54DB1C397DE8 /* PBXContainerItemProxy */;
+		};
+		20D79B90F32EEA0A3F13BF411F9EF581 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CZPicker;
+			target = 66BAFE48E61D0FD962914D7A750DE26A /* CZPicker */;
+			targetProxy = 5CAC6217ADC09A28F93E00BB470098C4 /* PBXContainerItemProxy */;
+		};
+		23C8BD4D3E036C6A056E1849727EB2D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CZPicker-CZPicker";
+			target = 1246D72EBE9DC6C28D83D23CB8AB1488 /* CZPicker-CZPicker */;
+			targetProxy = 7B5644FED90468C749F7242E612D6071 /* PBXContainerItemProxy */;
+		};
+		40289D7DA03391C5AB8B1D8BAC495160 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ISO8601DateFormatter;
+			target = B0267AE73E97C7576F08F4911FEFECD5 /* ISO8601DateFormatter */;
+			targetProxy = E02325A69F928E05D0207E43080F407F /* PBXContainerItemProxy */;
+		};
+		550707218986CBFE00C6F14DB56596F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SoapKit;
+			target = 8C27E525859B3E87E10BE1BE6A2DD443 /* SoapKit */;
+			targetProxy = AF5C0BA9E4E14E65AD17057345CB9CC9 /* PBXContainerItemProxy */;
+		};
+		5590A33301FD2B8625D4F92C38EBAB29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ISO8601DateFormatter;
+			target = B0267AE73E97C7576F08F4911FEFECD5 /* ISO8601DateFormatter */;
+			targetProxy = 7ED511EF7362F1B9D82BCF510A3565F8 /* PBXContainerItemProxy */;
+		};
+		5EA162806C077B285C1CB45C05506B8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 9F12FB4A63E20F601CFB2E64A65B57C1 /* FMDB */;
+			targetProxy = 75E286061D58C51C1E4CA10DDADF1BC9 /* PBXContainerItemProxy */;
+		};
+		604442854E7FC196B6D69014795204D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 275E73B6E5B3B9AE90658D79E7012005 /* SVProgressHUD */;
+			targetProxy = B8DCEC5520AE8D9D2ADABE8A7214ED86 /* PBXContainerItemProxy */;
+		};
+		8A4AFBFC1DE6CBD2E91162FE9B68BA36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LGRadioButtonsView;
+			target = B85DEDB1E639DF2A558CDC3A15CEB637 /* LGRadioButtonsView */;
+			targetProxy = 03F1A900A279D681D3889256EE021AF0 /* PBXContainerItemProxy */;
+		};
+		FD90F4D52AEF36409F4E3AF1DEB224F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LGDrawer;
+			target = 3A39A1DDE806EEA6270BC9ED2CD0AEE8 /* LGDrawer */;
+			targetProxy = 21AA979E903230BA6D64F18C3AE3A2D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0409C10AF926DC72136AE590309881F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C2C95A4BCD990B600FAB9E38A30065C /* ISO8601DateFormatter.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ISO8601DateFormatter/ISO8601DateFormatter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		075B55362F246DDA509F72588D842855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 249091F66126767CCE14F2E91129393B /* Pods-EDEA.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		29267BDA22412243A72005AC365F398C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF0070E715333565A89826C89AE10913 /* CZPicker.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = CZPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3D747A925595D4DD051191B4454415F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C2C95A4BCD990B600FAB9E38A30065C /* ISO8601DateFormatter.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ISO8601DateFormatter/ISO8601DateFormatter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		511103F7F15A7E8F83B268EA03462CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				ONLY_ACTIVE_ARCH = NO;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63C39D0E6B99D7EB160F3AE6E9436394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE3B1A8CA7E9F1B7987D4466C4DB81CC /* LGRadioButtonsView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LGRadioButtonsView/LGRadioButtonsView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		81D62FE97F4C949346E82E9C3CD7FCB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66187388FBE728CFBD3D734A2CCCCD12 /* SoapKit.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SoapKit/SoapKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		899909442F5984DC08F380DDFA1F5C59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66187388FBE728CFBD3D734A2CCCCD12 /* SoapKit.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SoapKit/SoapKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9616D0CE9075A3CD6CCF6472DA20AA46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7971FC38A27F07581DD58F76D0BEBE8 /* FMDB.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		985AF410604C7BD59B54E453AC0A828B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7971FC38A27F07581DD58F76D0BEBE8 /* FMDB.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A234C0BEA672F84830CCB729B958CBF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27F01937AFE5975F251247C22FC12292 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A8CD3FE1E0192B3E7DC7DC0730316A21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE3B1A8CA7E9F1B7987D4466C4DB81CC /* LGRadioButtonsView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LGRadioButtonsView/LGRadioButtonsView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		AB017BDBEBDF0A8010D447B22CD79F6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0186D87D0893B468895F14EF82573AB5 /* TWRCharts.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TWRCharts/TWRCharts-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B7113E91B9751EF3632EAB523319FFFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 640B1AF43282DD489E78E47542D1E2ED /* LGDrawer.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LGDrawer/LGDrawer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B93A60B802ED0FAF842257F1A1A27A77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 640B1AF43282DD489E78E47542D1E2ED /* LGDrawer.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LGDrawer/LGDrawer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C12EAD40A67A3F7DAF0BB73E53AF789A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27F01937AFE5975F251247C22FC12292 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C2DC23B8BE7D9D8119D64F01D76F382A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0186D87D0893B468895F14EF82573AB5 /* TWRCharts.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TWRCharts/TWRCharts-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CD3030BB2EF53FB9524BBFCD295D3C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF0070E715333565A89826C89AE10913 /* CZPicker.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CZPicker/CZPicker-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D316FFC97676EBF7B121DF29D6203B44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C32C68AB246F561982DDE569267E175 /* Pods-EDEA.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E7F4F45F3D3F7F69A6CA23884B9219AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF0070E715333565A89826C89AE10913 /* CZPicker.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = CZPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		FDA386C0DC0FAAA9905D5278208F336F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF0070E715333565A89826C89AE10913 /* CZPicker.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CZPicker/CZPicker-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BBDDB3936050C110F459C3A50B1B37F /* Build configuration list for PBXNativeTarget "SoapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				899909442F5984DC08F380DDFA1F5C59 /* Debug */,
+				81D62FE97F4C949346E82E9C3CD7FCB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		268609926F87B73EC4C421FBD9B4FB93 /* Build configuration list for PBXNativeTarget "LGDrawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7113E91B9751EF3632EAB523319FFFD /* Debug */,
+				B93A60B802ED0FAF842257F1A1A27A77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */,
+				511103F7F15A7E8F83B268EA03462CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3797341A60FDF05867FE00E61FA7647B /* Build configuration list for PBXNativeTarget "Pods-EDEA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D316FFC97676EBF7B121DF29D6203B44 /* Debug */,
+				075B55362F246DDA509F72588D842855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3877C3A95EF70432EA6BC46CF55F1A9E /* Build configuration list for PBXNativeTarget "CZPicker-CZPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29267BDA22412243A72005AC365F398C /* Debug */,
+				E7F4F45F3D3F7F69A6CA23884B9219AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AC899FD215914230EB9D8B57AD910D0 /* Build configuration list for PBXNativeTarget "FMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				985AF410604C7BD59B54E453AC0A828B /* Debug */,
+				9616D0CE9075A3CD6CCF6472DA20AA46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BE723EBBD599DAAC6F54AE696E7C154 /* Build configuration list for PBXNativeTarget "ISO8601DateFormatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D747A925595D4DD051191B4454415F5 /* Debug */,
+				0409C10AF926DC72136AE590309881F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B74C8CF3DB924E3136F42D30CEF937BC /* Build configuration list for PBXNativeTarget "CZPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3030BB2EF53FB9524BBFCD295D3C02 /* Debug */,
+				FDA386C0DC0FAAA9905D5278208F336F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C686E188F864F6A21D6495212A768B2D /* Build configuration list for PBXNativeTarget "LGRadioButtonsView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8CD3FE1E0192B3E7DC7DC0730316A21 /* Debug */,
+				63C39D0E6B99D7EB160F3AE6E9436394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E153E703D2EB79727CAA7D4FA919D249 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A234C0BEA672F84830CCB729B958CBF1 /* Debug */,
+				C12EAD40A67A3F7DAF0BB73E53AF789A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC89B66BD1351677CB045656DC71A717 /* Build configuration list for PBXNativeTarget "TWRCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2DC23B8BE7D9D8119D64F01D76F382A /* Debug */,
+				AB017BDBEBDF0A8010D447B22CD79F6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
